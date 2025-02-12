@@ -124,7 +124,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Northeastern University",
-      logo: require("./assets/images/northeasternlogo.jpg"),
+      logo: require("./assets/images/neulogo.jpg"),
       subHeader: "Master of Professional Studies in Analytics",
       duration: "September 2022 - August 2024"
     },

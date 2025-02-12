@@ -23,7 +23,7 @@ const greeting = {
   username: "Artha Pillai",
   title: "Hi all, I'm Artha",
   subTitle: emoji(
-    "A passionate Business Intelligence & Data Analyst 💡 with a strong passion for transforming complex data into actionable insights. I specialize in utilizing tools like SQL, Power BI, Tableau, and Python to help organizations make informed decisions. With a background in data analysis, predictive modeling, and data visualization, I strive to optimize business processes and foster data-driven decision-making. Let’s explore how I can help you turn your data challenges into opportunities!"
+    "A data-driven Business Intelligence & Data Analyst 💡 with a strong passion for transforming complex data into actionable insights. I specialize in utilizing tools like Python, R, SQL, Power BI,and Tableau. Let’s explore how I can help you turn your data challenges into opportunities!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  gmail: "arthapillai2000@gmail.com",
+  linkedin: "https://www.linkedin.com/in/artha-pillai/",
+  github: "https://github.com/ArthaPillai",
+  medium: "https://medium.com/@arthapillai2000",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -113,8 +110,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "R",
+      fontAwesomeClassname: "fab fa-r-project"
     }
   ],
   display: true // Set false to hide this section, defaults to true

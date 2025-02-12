@@ -123,23 +123,31 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Northeastern University",
+      logo: require("./assets/images/northeasternlogo.jpg"),
+      subHeader: "Master of Professional Studies in Analytics",
+      duration: "September 2022 - August 2024",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "",
+        ""
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "University of Mumbai",
+      logo: require("./assets/images/mumbaiuniversitylogo.png"),
+      subHeader: "Bachelor of Engineering in Computer Engineering",
+      duration: "August 2019 - May 2022",
+      desc: "",
+      descBullets: [""]
+    },
+    {
+      schoolName: "Maharashtra State Board of Technical Education",
+      logo: require("./assets/images/msbtelogo.png"),
+      subHeader: "Technical Diploma in Computer Engineering",
+      duration: "August 2016 - June 2019",
+      desc: "",
+      descBullets: [""]
     }
   ]
 };

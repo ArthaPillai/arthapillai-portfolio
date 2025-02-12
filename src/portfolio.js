@@ -126,28 +126,19 @@ const educationInfo = {
       schoolName: "Northeastern University",
       logo: require("./assets/images/northeasternlogo.jpg"),
       subHeader: "Master of Professional Studies in Analytics",
-      duration: "September 2022 - August 2024",
-      desc: "",
-      descBullets: [
-        "",
-        ""
-      ]
+      duration: "September 2022 - August 2024"
     },
     {
       schoolName: "University of Mumbai",
       logo: require("./assets/images/mumbaiuniversitylogo.png"),
       subHeader: "Bachelor of Engineering in Computer Engineering",
-      duration: "August 2019 - May 2022",
-      desc: "",
-      descBullets: [""]
+      duration: "August 2019 - May 2022"
     },
     {
       schoolName: "Maharashtra State Board of Technical Education",
       logo: require("./assets/images/msbtelogo.png"),
       subHeader: "Technical Diploma in Computer Engineering",
-      duration: "August 2016 - June 2019",
-      desc: "",
-      descBullets: [""]
+      duration: "August 2016 - June 2019"
     }
   ]
 };

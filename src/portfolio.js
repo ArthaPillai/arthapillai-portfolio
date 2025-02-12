@@ -23,7 +23,7 @@ const greeting = {
   username: "Artha Pillai",
   title: "Hi all, I'm Artha",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Business Intelligence & Data Analyst 💡 with a strong passion for transforming complex data into actionable insights. I specialize in utilizing tools like SQL, Power BI, Tableau, and Python to help organizations make informed decisions. With a background in data analysis, predictive modeling, and data visualization, I strive to optimize business processes and foster data-driven decision-making. Let’s explore how I can help you turn your data challenges into opportunities!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button

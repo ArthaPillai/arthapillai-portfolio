@@ -179,7 +179,7 @@ const workExperiences = {
     {
       role: "Data Science Intern",
       company: "Aine Ai",
-      companylogo: require("./assets/images/aineailogo.png"),
+      companylogo: require("./assets/images/aineailogo.jpeg"),
       date: "August 2021 – January 2022",
       desc: "As a Data Science Intern, I played a critical role in analyzing telecom data, developing predictive models, implementing machine learning algorithms, and creating visually compelling dashboards to provide valuable insights and support data-driven decision-making within the organization."
     },

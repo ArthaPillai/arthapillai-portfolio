@@ -170,29 +170,25 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Data Analyst Intern",
+      company: "World Justice Project",
+      companylogo: require("./assets/images/wjplogo.png"),
+      date: "September 2023 – March 2024",
+      desc: "As a Data Analyst Intern, I contributed to global awareness and policymaking by creating and publishing  comprehensive country reports of USA and North Macedonia with extensive data analysis charts using R and HTML. My efforts in developing a Python script for sentiment analysis significantly reduced report generation time by automating Excel reports from AWS data. Additionally, I revolutionized the development of Rule of Law country reports by building a dynamic HTML webpage using Flask, streamlining the process and enhancing efficiency. My role also involved deploying a Naive Bayes model to classify news articles related to the rule of law, which improved the accuracy and efficiency of the news analysis process."
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Data Science Intern",
+      company: "Aine Ai",
+      companylogo: require("./assets/images/aineailogo.png"),
+      date: "August 2021 – January 2022",
+      desc: "As a Data Science Intern, I played a critical role in analyzing telecom data, developing predictive models, implementing machine learning algorithms, and creating visually compelling dashboards to provide valuable insights and support data-driven decision-making within the organization."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Data Science Intern",
+      company: "SIES Graduate School of Technology",
+      companylogo: require("./assets/images/sieslogo.png"),
+      date: "June 2021 – July 2021",
+      desc: "As a Data Science Intern, I applied ML techniques like Neural Networks and Logistic Regression to analyze and classify Quantum Computing data. Additionally, I leveraged NLP techniques for insights extraction. My role involved data analysis, interpretation, collaboration, and effective communication of findings to contribute to the overall success of the project."
     }
   ]
 };

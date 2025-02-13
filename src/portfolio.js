@@ -46,14 +46,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "DRIVEN DATA STORYTELLER ON A QUEST TO UNLOCK HIDDEN NARRATIVES BEHIND THE NUMBERS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Transform raw data into engaging stories that drive strategic decisions"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Blend diverse datasets to spotlight game-changing insights that spark innovation"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Craft visually compelling dashboards and reports that bring data to life"
     )
   ],
 
@@ -149,16 +149,24 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Data Analysis & Reporting", // Core skill in analyzing and interpreting data
+      progressPercentage: "95%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Data Visualization", // Ability to create compelling visualizations and dashboards
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "SQL & Data Management", // Expertise in managing, querying, and integrating data
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Programming Languages", // Proficiency in Python, R, and other relevant languages
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Machine Learning & Predictive Analytics", // Skill in building predictive models and implementing machine learning algorithms
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,21 +182,26 @@ const workExperiences = {
       company: "World Justice Project",
       companylogo: require("./assets/images/wjplogo.png"),
       date: "September 2023 – March 2024",
-      desc: "As a Data Analyst Intern, I contributed to global awareness and policymaking by creating and publishing  comprehensive country reports of USA and North Macedonia with extensive data analysis charts using R and HTML. My efforts in developing a Python script for sentiment analysis significantly reduced report generation time by automating Excel reports from AWS data. Additionally, I revolutionized the development of Rule of Law country reports by building a dynamic HTML webpage using Flask, streamlining the process and enhancing efficiency. My role also involved deploying a Naive Bayes model to classify news articles related to the rule of law, which improved the accuracy and efficiency of the news analysis process."
+      descBullets: [
+        "I contributed to global awareness and policymaking by creating and publishing  comprehensive country reports of USA and North Macedonia with extensive data analysis charts using R and HTML.",
+        "My efforts in developing a Python script for sentiment analysis significantly reduced report generation time by automating Excel reports from AWS data.",
+        "Additionally, I revolutionized the development of Rule of Law country reports by building a dynamic HTML webpage using Flask, streamlining the process and enhancing efficiency.",
+        "My role also involved deploying a Naive Bayes model to classify news articles related to the rule of law, which improved the accuracy and efficiency of the news analysis process."
+      ]
     },
     {
       role: "Data Science Intern",
       company: "Aine Ai",
       companylogo: require("./assets/images/aineailogo.jpeg"),
       date: "August 2021 – January 2022",
-      desc: "As a Data Science Intern, I played a critical role in analyzing telecom data, developing predictive models, implementing machine learning algorithms, and creating visually compelling dashboards to provide valuable insights and support data-driven decision-making within the organization."
+      desc: "I played a critical role in analyzing telecom data, developing predictive models, implementing machine learning algorithms, and creating visually compelling dashboards to provide valuable insights and support data-driven decision-making within the organization."
     },
     {
       role: "Data Science Intern",
       company: "SIES Graduate School of Technology",
       companylogo: require("./assets/images/sieslogo.png"),
       date: "June 2021 – July 2021",
-      desc: "As a Data Science Intern, I applied ML techniques like Neural Networks and Logistic Regression to analyze and classify Quantum Computing data. Additionally, I leveraged NLP techniques for insights extraction. My role involved data analysis, interpretation, collaboration, and effective communication of findings to contribute to the overall success of the project."
+      desc: "I applied ML techniques like Neural Networks and Logistic Regression to analyze and classify Quantum Computing data. Additionally, I leveraged NLP techniques for insights extraction. My role involved data analysis, interpretation, collaboration, and effective communication of findings to contribute to the overall success of the project."
     }
   ]
 };

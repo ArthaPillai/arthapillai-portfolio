@@ -1,6 +1,6 @@
 {
-  "homepage": "https://developerfolio.js.org/",
-  "name": "developerfolio",
+  "homepage": "https://arthapillai.com/",
+  "name": "Artha Pillai",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,6 +29,9 @@
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
     "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
+  },
+  "lint-staged": {
+  "**/*.{js,css,json,scss}": "prettier --write"
   },
   "eslintConfig": {
     "extends": "react-app"

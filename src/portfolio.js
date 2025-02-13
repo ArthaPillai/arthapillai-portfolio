@@ -261,56 +261,47 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Publications 📰 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Data Analysis Websites and and Research Paper publications of mine !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Rule of Law in the United States",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Analyzed U.S. rule-of-law trends and public trust by developing visualizations and reports from a nationally representative survey for the 2024 election.",
+      image: require("./assets/images/RoLUSALogo.png"),
+      imageAlt: "RoL USA Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Website",
+          url: "https://worldjusticeproject.org/our-work/research-and-data/rule-law-united-states"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Rule of Law in North Macedonia",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Collaborated on a nationwide survey in North Macedonia, analyzing perceptions of accountability, corruption, and justice with compelling visualizations and reports.",
+      image: require("./assets/images/RoLNMLogo.jpg"),
+      imageAlt: "RoL NM Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Website",
+          url: "https://worldjusticeproject.org/our-work/research-and-data/rule-of-law/north-macedonia-2023"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Clinical Healthcare System Using Data Mining",
+      subtitle: "Enhanced stroke prediction using advanced data mining, feature engineering, and machine learning techniques to significantly reduce false negatives.",
+      image: require("./assets/images/CHSLogo.png"),
+      imageAlt: "CHS Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Research Paper",
+          url: "https://www.ijream.org/IJREAM_V08I02.html"
         }
       ]
     }

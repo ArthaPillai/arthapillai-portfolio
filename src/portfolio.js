@@ -197,14 +197,21 @@ const workExperiences = {
       company: "Aine Ai",
       companylogo: require("./assets/images/aineailogo.jpeg"),
       date: "August 2021 – January 2022",
-      desc: "I played a critical role in analyzing telecom data, developing predictive models, implementing machine learning algorithms, and creating visually compelling dashboards to provide valuable insights and support data-driven decision-making within the organization."
+      descBullets: [ 
+        "I played a critical role in analyzing telecom data, developing predictive models and implementing machine learning algorithms.",
+        "Also created visually compelling dashboards to provide valuable insights and support data-driven decision-making within the organization."
+      ]
     },
     {
       role: "Data Science Intern",
       company: "SIES Graduate School of Technology",
       companylogo: require("./assets/images/sieslogo.png"),
       date: "June 2021 – July 2021",
-      desc: "I applied ML techniques like Neural Networks and Logistic Regression to analyze and classify Quantum Computing data. Additionally, I leveraged NLP techniques for insights extraction. My role involved data analysis, interpretation, collaboration, and effective communication of findings to contribute to the overall success of the project."
+      descBullets: [ 
+        "I applied ML techniques like Neural Networks and Logistic Regression to analyze and classify Quantum Computing data.",
+        "Additionally, I leveraged NLP techniques for insights extraction.",
+        "My role involved data analysis, interpretation, collaboration, and effective communication of findings to contribute to the overall success of the project."
+      ]
     }
   ]
 };

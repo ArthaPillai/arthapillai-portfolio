@@ -294,7 +294,7 @@ const achievementSection = {
     },
 
     {
-      title: "Clinical Healthcare System Using Data Mining",
+      title: "Clinical Healthcare System",
       subtitle: "Enhanced stroke prediction using advanced data mining, feature engineering, and machine learning techniques to significantly reduce false negatives.",
       image: require("./assets/images/CHSLogo.png"),
       imageAlt: "CHS Logo",

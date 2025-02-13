@@ -46,12 +46,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "DRIVEN DATA STORYTELLER ON A QUEST TO UNLOCK HIDDEN NARRATIVES BEHIND THE NUMBERS",
+  subTitle:
+    "DRIVEN DATA STORYTELLER ON A QUEST TO UNLOCK HIDDEN NARRATIVES BEHIND THE NUMBERS",
   skills: [
     emoji(
       "⚡ Transform raw data into engaging stories that drive strategic decisions"
     ),
-    emoji("⚡ Blend diverse datasets to spotlight game-changing insights that spark innovation"),
+    emoji(
+      "⚡ Blend diverse datasets to spotlight game-changing insights that spark innovation"
+    ),
     emoji(
       "⚡ Craft visually compelling dashboards and reports that bring data to life"
     )

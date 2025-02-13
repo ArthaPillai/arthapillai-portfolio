@@ -321,7 +321,8 @@ const blogSection = {
   blogs: [
     {
       url: "https://medium.com/@arthapillai2000/dashboards-are-dead-the-future-of-data-analytics-and-my-sanity-433ad4732491",
-      title: "Dashboards Are Dead? The Future of Data Analytics (And My Sanity)",
+      title:
+        "Dashboards Are Dead? The Future of Data Analytics (And My Sanity)",
       description:
         "For years, I’ve been in a love-hate relationship with dashboards. On one hand, they make me feel powerful — like a wizard conjuring up insights with a few clicks. On the other hand, they haunt my dreams. "
     }

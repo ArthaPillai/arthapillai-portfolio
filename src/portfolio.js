@@ -77,12 +77,28 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
+      skillName: "Tableau",
+      fontAwesomeClassname: "fas fa-chart-bar"
+    },
+    {
+      skillName: "Power-Bi",
+      fontAwesomeClassname: "fas fa-chart-line"
+    },
+    {
+      skillName: "Qlik Sense",
+      fontAwesomeClassname: "fas fa-q"
+    },
+    {
       skillName: "Excel",
-      fontAwesomeClassname: "fal file-spreadsheet"
+      fontAwesomeClassname: "fas fa-file-excel"
     },
     {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "Snowflake",
+      fontAwesomeClassname: "fas fa-snowflake"
     },
     {
       skillName: "Java",
@@ -103,18 +119,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "Tableau",
-      fontAwesomeClassname: "fas fa-chart-bar"
-    },
-    {
-      skillName: "Power-Bi",
-      fontAwesomeClassname: "fas fa-chart-line"
-    },
-    {
-      skillName: "Snowflake",
-      fontAwesomeClassname: "fas fa-snowflake"
     }
   ],
   display: true // Set false to hide this section, defaults to true

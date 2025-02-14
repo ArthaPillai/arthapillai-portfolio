@@ -85,10 +85,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-chart-line"
     },
     {
-      skillName: "Qlik Sense",
-      fontAwesomeClassname: "fas fa-q"
-    },
-    {
       skillName: "Excel",
       fontAwesomeClassname: "fas fa-file-excel"
     },

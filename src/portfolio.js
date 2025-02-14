@@ -272,7 +272,6 @@ const achievementSection = {
         "Analyzed U.S. rule-of-law trends and public trust by developing visualizations and reports from a nationally representative survey for the 2024 election.",
       image: require("./assets/images/RoLUSALogo.png"),
       imageAlt: "RoL USA Logo",
-      imageClass: "achievement-image",
       footerLink: [
         {
           name: "Website",
@@ -286,7 +285,6 @@ const achievementSection = {
         "Collaborated on a nationwide survey in North Macedonia, analyzing perceptions of accountability, corruption, and justice with compelling visualizations and reports.",
       image: require("./assets/images/RoLNMLogo.jpg"),
       imageAlt: "RoL NM Logo",
-      imageClass: "achievement-image",
       footerLink: [
         {
           name: "Website",
@@ -300,7 +298,6 @@ const achievementSection = {
       subtitle: "Enhanced stroke prediction using advanced data mining, feature engineering, and machine learning techniques to significantly reduce false negatives.",
       image: require("./assets/images/CHSLogo.png"),
       imageAlt: "CHS Logo",
-      imageClass: "achievement-image",
       footerLink: [
         {
           name: "Research Paper",

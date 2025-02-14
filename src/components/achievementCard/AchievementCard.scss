@@ -2,8 +2,10 @@
 
 .card-image {
   max-width: 100%;
-  height: 815px;
+  max-height: 250px;
+  height: auto;
   width: auto;
+  object-fit: contain;
 }
 .card-title {
   color: $titleColor;

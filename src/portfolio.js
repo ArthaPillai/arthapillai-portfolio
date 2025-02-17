@@ -334,6 +334,13 @@ const blogSection = {
       description:
         "For years, I’ve been in a love-hate relationship with dashboards. On one hand, they make me feel powerful — like a wizard conjuring up insights with a few clicks. On the other hand, they haunt my dreams. "
     }
+    {
+      url: "https://medium.com/@arthapillai2000/the-data-analysts-guide-to-surviving-chaos-a-k-a-your-inbox-4893b26b02a1",
+      title:
+        "The Data Analyst’s Guide to Surviving Chaos(a.k.a. Your Inbox)",
+      description:
+        "Working in data analytics is part art, part science, and part trying not to scream into the void. But fear not! Here’s my survival guide to navigating the madness (and maybe even enjoying the ride). "
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };

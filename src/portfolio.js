@@ -325,7 +325,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "Embarking on adventures through the data universe, I unravel tales and share the wisdom gleaned from my analytical escapades.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: true, // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://medium.com/@arthapillai2000/dashboards-are-dead-the-future-of-data-analytics-and-my-sanity-433ad4732491",

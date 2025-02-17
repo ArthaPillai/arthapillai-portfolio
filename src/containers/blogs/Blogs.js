@@ -22,7 +22,7 @@ export default function Blogs() {
       : NaN;
   }
   useEffect(() => {
-    if (blogSection.displayMediumBlogs === "true") {
+    if (blogSection.displayMediumBlogs === true) {
       const getProfileData = () => {
         fetch("/blogs.json")
           .then(result => {
@@ -38,7 +38,7 @@ export default function Blogs() {
               `${error} (because of this error Blogs section could not be displayed. Blogs section has reverted to default)`
             );
             setMediumBlogsFunction("Error");
-            blogSection.displayMediumBlogs = "false";
+            blogSection.displayMediumBlogs = false;
           });
       };
       getProfileData();
@@ -62,7 +62,7 @@ export default function Blogs() {
         </div>
         <div className="blog-main-div">
           <div className="blog-text-div">
-            {blogSection.displayMediumBlogs !== "true" ||
+            {blogSection.displayMediumBlogs !== true ||
             mediumBlogs === "Error"
               ? blogSection.blogs.map((blog, i) => {
                   return (

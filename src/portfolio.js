@@ -233,7 +233,7 @@ const bigProjects = {
     {
       image: require("./assets/images/Dash_President.png"),
       projectName: "USA Presidential Legacies",
-      projectDesc: "",
+      projectDesc: "Visualizes the impact of U.S. Presidents through key metrics like policies,net worth and political affiliations.",
       footerLink: [
         {
           name: "Visit Dashboard",
@@ -244,7 +244,7 @@ const bigProjects = {
     {
       image: require("./assets/images/Dash_Companies.png"),
       projectName: "Top 10 Tech Companies",
-      projectDesc: "" ,
+      projectDesc: "Visualizes the financial performance, annual revenue and market capitalization of the top 10 tech companies in the US.",
       footerLink: [
         {
           name: "Visit Dashboard",
@@ -255,7 +255,7 @@ const bigProjects = {
     {
       image: require("./assets/images/Dash_NYC.png"),
       projectName: "NYC Street Tree Census",
-      projectDesc: "" ,
+      projectDesc: " Visualizes NYC's street tree census by species, health, and borough; focusing on root, trunk, and branch issue.",
       footerLink: [
         {
           name: "Visit Dashboard",

@@ -333,7 +333,7 @@ const blogSection = {
         "Dashboards Are Dead? The Future of Data Analytics (And My Sanity)",
       description:
         "For years, I’ve been in a love-hate relationship with dashboards. On one hand, they make me feel powerful — like a wizard conjuring up insights with a few clicks. On the other hand, they haunt my dreams. "
-    }
+    },
     {
       url: "https://medium.com/@arthapillai2000/the-data-analysts-guide-to-surviving-chaos-a-k-a-your-inbox-4893b26b02a1",
       title:

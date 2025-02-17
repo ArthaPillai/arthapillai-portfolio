@@ -227,34 +227,44 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Dashboards",
+  subtitle: "SOME DASHBOARDS THAT I HAVE BUILT",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Dash_President.png"),
+      projectName: "USA Presidential Legacies",
+      projectDesc: "",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Dashboard",
+          url: "https://0iunl24v1l4vhrm.us.qlikcloud.com/sense/app/67c2372c-e5ee-4202-a508-11e6edb78391/sheet/UbrsjJM/state/analysis/hubUrl/%2Fanalytics%2Fhome"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Dash_Companies.png"),
+      projectName: "Top 10 Tech Companies",
+      projectDesc: "" ,
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit Dashboard",
+          url: "https://0iunl24v1l4vhrm.us.qlikcloud.com/sense/app/2fe9be8a-3e99-4a88-9a4e-c0a963111fcf/sheet/dkDCGR/state/analysis/hubUrl/%2Fanalytics%2Fhome"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Dash_NYC.png"),
+      projectName: "NYC Street Tree Census",
+      projectDesc: "" ,
+      footerLink: [
+        {
+          name: "Visit Dashboard",
+          url: "https://public.tableau.com/views/NYC_StreetTreeCensus/IndividualDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section

@@ -43,7 +43,7 @@ export default function Greeting() {
                 {greeting.resumeLink && (
                   <>
                   <a
-                    href={greeting.resumeLink}
+                    href={require("./ArthaPillai_Resume.pdf")}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="view-link-button"

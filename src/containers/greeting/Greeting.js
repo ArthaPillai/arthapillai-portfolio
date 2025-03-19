@@ -55,19 +55,29 @@ export default function Greeting() {
                       className="download-link-button"
                       onClick={(e) => {
                         e.preventDefault();
-                        fetch("/ArthaPillai_Resume.pdf")
-                          .then((response) => response.blob())
-                          .then((blob) => {
-                            const url = window.URL.createObjectURL(blob);
-                            const link = document.createElement("a");
-                            link.href = url;
-                            link.download = "ArthaPillai_Resume.pdf";
-                            document.body.appendChild(link);
-                            link.click();
-                            document.body.removeChild(link);
-                            window.URL.revokeObjectURL(url);
-                          })
-                          .catch((error) => console.error("Error downloading the file:", error));
+              
+                        // Check if the browser is Safari
+                        const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+              
+                        if (isSafari) {
+                          // Redirect to the file URL for Safari to handle the download
+                          window.location.href = "/ArthaPillai_Resume.pdf";
+                        } else {
+                          // Use the programmatic download for other browsers
+                          fetch("/ArthaPillai_Resume.pdf")
+                            .then((response) => response.blob())
+                            .then((blob) => {
+                              const url = window.URL.createObjectURL(blob);
+                              const link = document.createElement("a");
+                              link.href = url;
+                              link.download = "ArthaPillai_Resume.pdf";
+                              document.body.appendChild(link);
+                              link.click();
+                              document.body.removeChild(link);
+                              window.URL.revokeObjectURL(url);
+                            })
+                            .catch((error) => console.error("Error downloading the file:", error));
+                        }
                       }}
                     >
                       <Button text="Download my resume" />

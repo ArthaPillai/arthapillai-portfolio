@@ -43,7 +43,7 @@ export default function Greeting() {
                 {greeting.resumeLink && (
                   <>
                     <a
-                      href={require("./ArthaPillai_Resume.pdf")}
+                      href="/ArthaPillai_Resume.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="view-link-button"
@@ -51,12 +51,12 @@ export default function Greeting() {
                       <Button text="View my resume" />
                     </a>
                     <a
-                      href={require("./ArthaPillai_Resume.pdf")} 
-                      download="ArthaPillai_Resume.pdf" 
+                      href="/ArthaPillai_Resume.pdf"
+                      download="ArthaPillai_Resume.pdf"
                       onClick={(e) => {
                         e.preventDefault(); 
                         const link = document.createElement("a");
-                        link.href = require("./ArthaPillai_Resume.pdf");
+                        link.href = "/ArthaPillai_Resume.pdf";
                         link.download = "ArthaPillai_Resume.pdf";
                         document.body.appendChild(link);
                         link.click();

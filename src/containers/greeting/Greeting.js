@@ -51,8 +51,10 @@ export default function Greeting() {
                       <Button text="View my resume" />
                     </a>
                     <a
+                      href={require("./ArthaPillai_Resume.pdf")} 
+                      download="ArthaPillai_Resume.pdf" 
                       onClick={(e) => {
-                        e.preventDefault();
+                        e.preventDefault(); 
                         const link = document.createElement("a");
                         link.href = require("./ArthaPillai_Resume.pdf");
                         link.download = "ArthaPillai_Resume.pdf";
@@ -61,7 +63,6 @@ export default function Greeting() {
                         document.body.removeChild(link);
                       }}
                       className="download-link-button"
-                      role="button"
                     >
                       <Button text="Download my resume" />
                     </a>

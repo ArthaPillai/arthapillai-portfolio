@@ -42,22 +42,28 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <>
-                  <a
-                    href={require("./ArthaPillai_Resume.pdf")}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="view-link-button"
-                  >
-                    <Button text="View my resume" />
-                  </a>
-                  <a
-                    href={require("./ArthaPillai_Resume.pdf")}
-                    download="Resume.pdf"
-                    className="download-link-button"
-                  >
-                    <Button text="Download my resume" />
-                  </a>
-                </>
+                    <a
+                      href={require("./ArthaPillai_Resume.pdf")}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="view-link-button"
+                    >
+                      <Button text="View my resume" />
+                    </a>
+                    <button
+                      onClick={() => {
+                        const link = document.createElement("a");
+                        link.href = require("./ArthaPillai_Resume.pdf");
+                        link.download = "ArthaPillai_Resume.pdf";
+                        document.body.appendChild(link);
+                        link.click();
+                        document.body.removeChild(link);
+                      }}
+                      className="download-link-button"
+                    >
+                      <Button text="Download my resume" />
+                    </button>
+                  </>
                 )}
               </div>
             </div>

@@ -198,8 +198,11 @@ const workExperiences = {
       companylogo: require("./assets/images/aineailogo.jpeg"),
       date: "August 2021 – January 2022",
       descBullets: [ 
-        "I played a critical role in analyzing telecom data, developing predictive models and implementing machine learning algorithms.",
-        "Also created visually compelling dashboards to provide valuable insights and support data-driven decision-making within the organization."
+        "I drove enhancements in enhancing customer retention and marketing strategies by analyzing telecom data to predict customer churn.", 
+        "My efforts in identifying patterns in customer behavior, satisfaction, and demographics provided valuable insights that optimized customer segmentation.", 
+        "I developed predictive models using call center interactions, usage patterns, and demographic information, significantly improving operational efficiency.", 
+        "Additionally, I created interactive dashboards with Tableau and Power BI, enabling senior management to visualize key engagement metrics.", 
+        "My work empowered the team to refine retention strategies and boost customer engagement."
       ]
     },
     {

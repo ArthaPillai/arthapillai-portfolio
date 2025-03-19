@@ -51,7 +51,6 @@ export default function Greeting() {
                       <Button text="View my resume" />
                     </a>
                     <a
-                      href="#"
                       onClick={(e) => {
                         e.preventDefault();
                         const link = document.createElement("a");
@@ -62,6 +61,7 @@ export default function Greeting() {
                         document.body.removeChild(link);
                       }}
                       className="download-link-button"
+                      role="button"
                     >
                       <Button text="Download my resume" />
                     </a>

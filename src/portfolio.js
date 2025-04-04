@@ -216,17 +216,6 @@ const workExperiences = {
         "Additionally, I created interactive dashboards with Tableau and Power BI, enabling senior management to visualize key engagement metrics.", 
         "My work empowered the team to refine retention strategies and boost customer engagement."
       ]
-    },
-    {
-      role: "Data Science Intern",
-      company: "SIES Graduate School of Technology",
-      companylogo: require("./assets/images/sieslogo.png"),
-      date: "June 2021 – July 2021",
-      descBullets: [ 
-        "I applied ML techniques like Neural Networks and Logistic Regression to analyze and classify Quantum Computing data.",
-        "Additionally, I leveraged NLP techniques for insights extraction.",
-        "My role involved data analysis, interpretation, collaboration, and effective communication of findings to contribute to the overall success of the project."
-      ]
     }
   ]
 };

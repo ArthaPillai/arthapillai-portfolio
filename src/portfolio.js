@@ -181,7 +181,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Data Analyst Volunteer",
+      role: "Data Analyst",
       company: "Bright Mind Enrichment and Schooling",
       companylogo: require("./assets/images/bmelogo.png"),
       date: "November 2024 – Present",
@@ -193,7 +193,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Data Analyst Intern",
+      role: "Data Analyst",
       company: "World Justice Project",
       companylogo: require("./assets/images/wjplogo.png"),
       date: "September 2023 – March 2024",
@@ -205,7 +205,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Data Science Intern",
+      role: "Data Scientist",
       company: "Aine Ai",
       companylogo: require("./assets/images/aineailogo.jpeg"),
       date: "August 2021 – January 2022",

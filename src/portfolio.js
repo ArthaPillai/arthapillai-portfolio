@@ -186,10 +186,12 @@ const workExperiences = {
       companylogo: require("./assets/images/bmelogo.png"),
       date: "November 2024 – Present",
       descBullets: [
-        "I enhanced data collection and processing by designing SQL queries and automating pipelines in Python. I integrated R-based statistical models to improve data accuracy and streamline analysis workflows.",
-        "By creating and maintaining KPI dashboards, I enabled stakeholders to monitor campaign performance and enhance forecasting.", 
-        "I produced visual reports in Tableau to provide insights that supported strategic planning. Additionally, I performed data manipulation, cleansing, and analysis to identify trends and actionable insights.", 
-        "My contributions improved data integrity, optimized workflows, and strengthened the organization’s ability to leverage data for better decision-making."
+        "I led enhancements in data collection and processing by designing SQL queries and automating pipelines in Python.",
+        "I directed the integration of R-based statistical models to improve data accuracy and streamline analysis workflows.",
+        "By leading the creation and maintenance of KPI dashboards, I empowered stakeholders to monitor campaign performance and strengthen forecasting capabilities.",
+        "I oversaw the production of visual reports in Tableau to deliver insights that supported strategic planning.",
+        "Additionally, I managed comprehensive data manipulation, cleansing, and analysis efforts to uncover trends and actionable insights.",
+        "My leadership in these initiatives improved data integrity, optimized workflows, and strengthened the organization’s ability to leverage data for informed decision-making."
       ]
     },
     {
